@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  background-image: radial-gradient(at 23.788% 25.257%, #fff2c9 0%, transparent 60%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.gradient-btn {
+  background-image: linear-gradient(270deg, #d8a424 0%, #fff000 100%); }
+
+nav a {
+  margin-right: 5rem; }
