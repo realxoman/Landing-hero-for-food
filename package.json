@@ -3,10 +3,15 @@
   "version": "0.0.1",
   "description": "Code Challenge Kiarash",
   "scripts": {
-    "boro": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "boro": "node-sass src/scss -o assets/css && npx tailwindcss -i ./src/css/input.css -o ./assets/css/output.css --watch",
+    "bebinam": "node-sass -rw src/scss -o assets/css",
+    "besaz": "sass-watch src/sass/style.scss assets/css/style.css && npx tailwindcss -i ./src/css/input.css -o ./assets/css/output.css --minify"
   },
   "author": "Haj Ali - Realxoman",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
   }
 }
