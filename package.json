@@ -1,0 +1,12 @@
+{
+  "name": "Landing Hero",
+  "version": "0.0.1",
+  "description": "Code Challenge Kiarash",
+  "scripts": {
+    "boro": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Haj Ali - Realxoman",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
