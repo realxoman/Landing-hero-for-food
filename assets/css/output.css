@@ -555,6 +555,14 @@ video {
   display: flex;
 }
 
+.h-9 {
+  height: 2.25rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -580,6 +588,11 @@ video {
 .bg-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -612,6 +625,14 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
