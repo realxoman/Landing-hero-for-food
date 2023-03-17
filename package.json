@@ -5,7 +5,7 @@
   "scripts": {
     "boro": "node-sass src/scss -o assets/css && npx tailwindcss -i ./src/css/input.css -o ./assets/css/output.css --watch",
     "bebinam": "node-sass -rw src/scss -o assets/css",
-    "besaz": "sass-watch src/sass/style.scss assets/css/style.css && npx tailwindcss -i ./src/css/input.css -o ./assets/css/output.css --minify"
+    "besaz": "node-sass src/scss -o assets/css && npx tailwindcss -i ./src/css/input.css -o ./assets/css/output.css --minify"
   },
   "author": "Haj Ali - Realxoman",
   "devDependencies": {
